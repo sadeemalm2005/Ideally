@@ -1,140 +1,196 @@
-# Ideally — Know Before You Grow
+<div align="center">
 
-> **Evaluate. Discover. Improve.**
+# ✦ Ideally
 
-Ideally is an AI-powered iOS platform designed to help aspiring and early-stage entrepreneurs evaluate their readiness for their business ideas before launching.
+### Know Before You Grow
 
-Instead of focusing only on whether an idea is good, Ideally helps entrepreneurs understand whether **they are ready for it** by evaluating their skills, knowledge, and business readiness, then providing personalized recommendations to help them improve.
+**Evaluate. Discover. Improve.**
 
-## Problem
+An AI-powered platform that helps aspiring entrepreneurs
+evaluate their readiness before launching their business idea.
 
-A great idea is only the beginning.
+<br>
 
-Aspiring entrepreneurs may invest time and resources into a business idea without fully understanding its requirements or whether they have the skills and readiness needed to make it work.
+<img src="https://img.shields.io/badge/Platform-iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/SwiftUI-007AFF?style=for-the-badge&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/AI--Powered-6C5CE7?style=for-the-badge" />
 
-Ideally addresses this gap by helping entrepreneurs evaluate themselves alongside their business ideas.
-
-## Solution
-
-Ideally provides an interactive assessment that evaluates an entrepreneur's key skills and readiness based on their selected business category.
-
-After completing the assessment, the app provides:
-
-* A readiness assessment
-* Personalized AI-powered recommendations
-* An Idea Bank to save completed assessments
-* Insights across saved business ideas
-
-## Key Features
-
-### Assessment
-
-Evaluates the entrepreneur's key skills and business readiness through category-specific questions.
-
-### Personalized Recommendations
-
-Provides AI-powered guidance based on the entrepreneur's strengths and identified gaps.
-
-### Idea Bank
-
-Automatically saves completed assessments as idea cards, allowing users to keep track of their business ideas and previous assessments.
-
-### Idea Bank Insights
-
-Analyzes saved idea cards to identify similarities, recurring themes, and patterns across business ideas and provides a short personalized insight.
-
-## How It Works
-
-1. **Enter your business idea**
-2. **Select or identify the business category**
-3. **Complete the assessment**
-4. **Review your readiness**
-5. **Receive personalized recommendations**
-6. **Save your idea in the Idea Bank**
-7. **Explore insights across your saved ideas**
-
-## Target Users
-
-Ideally is designed for:
-
-* Aspiring entrepreneurs
-* Early-stage entrepreneurs
-* Students exploring business ideas
-* Individuals who want to understand their readiness before launching
-
-## Design
-
-The app follows a minimal and accessible interface inspired by Apple's design principles.
-
-* **UI:** Minimal & Accessible
-* **Typography:** SF Pro Text & SF Pro Display
-* **Platform:** iOS
-* **Framework:** SwiftUI
-
-## Technologies
-
-* Swift
-* SwiftUI
-* iOS
-* MLX Swift
-* JSON
-* Swift Package Manager
-
-## Project Structure
-
-```text
-IdeallyAssesment/
-│
-├── App1/
-│   └── IdeallyAssesmentApp.swift
-│
-├── Data/
-│   ├── QuestionBank.swift
-│   └── Questions/
-│
-├── Models/
-│   ├── AssessmentModels.swift
-│   ├── BusinessCategory.swift
-│   └── RecommendationModels.swift
-│
-├── Services/
-│   ├── AssessmentSession.swift
-│   ├── AutoDetectionService.swift
-│   ├── GradingEngine.swift
-│   ├── IdeaBankInsightService.swift
-│   ├── MLXTestService.swift
-│   └── RecommendationEngine.swift
-│
-├── Resources/
-│   └── final_recommendations.json
-│
-├── IdeaBankStore.swift
-├── IdeaModel.swift
-├── IdeaBankInsight.swift
-└── Router.swift
-```
-
-## Project Context
-
-Ideally was developed as part of the **Apple Developer Academy** experience using the Challenge Based Learning process.
-
-The project focuses on combining **entrepreneurship, user research, AI, and iOS development** to help aspiring entrepreneurs make more informed decisions before investing in their business ideas.
-
-## Team
-
-**Team 19**
-
-* Raghad Alqahtani — Information Technology
-* Dina Aljughayman — Computer Science
-* Maha Bawazir — Information Technology
-* Sadeem Almohsen — Computer Science
-
-## Project Presentation
-
-**Ideally — Know Before You Grow**
-
-The presentation covers the problem, research findings, solution, key features, target users, and app design.
+</div>
 
 ---
 
-*Ideally — Evaluate. Discover. Improve.*
+## ✦ About
+
+A great idea is only the beginning.
+
+**Ideally** is an AI-powered iOS platform designed to help
+aspiring and early-stage entrepreneurs evaluate their readiness
+for their business ideas before launching.
+
+Instead of focusing only on whether an idea is good, Ideally
+helps entrepreneurs understand whether **they are ready for it**
+by evaluating their skills, knowledge, and business readiness.
+
+The platform then provides personalized recommendations to
+help users identify areas for improvement and make more
+informed decisions before investing time and resources.
+
+---
+
+## ✦ Why Ideally?
+
+Entrepreneurs often focus on validating the business idea,
+but may overlook their own readiness to execute it.
+
+Ideally focuses on the **entrepreneur behind the idea**.
+
+It helps users:
+
+- Discover their strengths
+- Identify skill gaps
+- Understand their readiness
+- Receive personalized recommendations
+- Keep track of their business ideas
+
+---
+
+## ✦ Features
+
+### 🧠 Business Readiness Assessment
+
+An interactive assessment that evaluates key skills and
+business readiness based on the user's business idea and
+category.
+
+### ✨ Personalized Recommendations
+
+AI-powered recommendations based on the user's assessment,
+helping them understand where they can improve.
+
+### 💡 Idea Bank
+
+Saves completed assessments as idea cards, allowing users
+to organize and keep track of their business ideas in one place.
+
+### 🔍 Idea Insights
+
+Provides insights across saved ideas by identifying
+similarities, recurring themes, and patterns.
+
+---
+
+## ✦ App Preview
+
+<p align="center">
+  <img src="screenshots/home.png" width="210"/>
+  <img src="screenshots/assessment.png" width="210"/>
+  <img src="screenshots/recommendations.png" width="210"/>
+  <img src="screenshots/idea-bank.png" width="210"/>
+</p>
+
+---
+
+## ✦ How It Works
+
+### 01 — Enter Your Idea
+
+Tell Ideally about your business idea.
+
+### 02 — Complete the Assessment
+
+Answer questions related to your business category,
+skills, knowledge, and readiness.
+
+### 03 — Discover Your Readiness
+
+Review your strengths and identify areas that need improvement.
+
+### 04 — Get Personalized Recommendations
+
+Receive recommendations based on your assessment results.
+
+### 05 — Save Your Idea
+
+Your completed assessment is saved to the Idea Bank,
+allowing you to keep track of your business ideas.
+
+---
+
+## ✦ Design
+
+Ideally follows a minimal and accessible interface inspired
+by Apple's design principles.
+
+| | |
+|---|---|
+| **Platform** | iOS |
+| **Framework** | SwiftUI |
+| **Typography** | SF Pro Text & SF Pro Display |
+| **Design Approach** | Minimal & Accessible UI |
+
+---
+
+## ✦ Built With
+
+- **Swift**
+- **SwiftUI**
+- **MLX Swift**
+- **MLX Swift LM**
+- **JSON**
+- **Swift Package Manager**
+
+---
+
+## ✦ Target Users
+
+Ideally is designed for:
+
+- Aspiring entrepreneurs
+- Early-stage entrepreneurs
+- Students exploring business ideas
+- Individuals who want to evaluate their readiness before launching
+
+---
+
+## ✦ Project Context
+
+Ideally was developed as part of the **Apple Developer Academy**
+experience using the **Challenge Based Learning (CBL)** approach.
+
+The project combines:
+
+**Entrepreneurship × AI × User Research × iOS Development**
+
+to help aspiring entrepreneurs make more informed decisions
+before launching their business ideas.
+
+---
+
+## ✦ Team 19
+
+| Name | Field |
+|---|---|
+| **Sadeem Almohsen** | Computer Science |
+| Raghad Alqahtani | Information Technology |
+| Dina Aljughayman | Computer Science |
+| Maha Bawazir | Information Technology |
+
+---
+
+## ✦ Project Presentation
+
+### Ideally — Know Before You Grow
+
+The project presentation covers the problem, research,
+solution, key features, target users, and app design.
+
+---
+
+<div align="center">
+
+### Evaluate. Discover. Improve.
+
+**Ideally — Know Before You Grow.**
+
+</div>
