@@ -169,12 +169,10 @@ before launching their business ideas.
 
 ## ✦ Team 19
 
-| Name | Field |
-|---|---|
-| **Sadeem Almohsen** | Computer Science |
-| Raghad Alqahtani | Information Technology |
-| Dina Aljughayman | Computer Science |
-| Maha Bawazir | Information Technology |
+- **Sadeem Almohsen** — Computer Science
+- **Raghad Alqahtani** — Information Technology
+- **Dina Aljughayman** — Computer Science
+- **Maha Bawazir** — Information Technology
 
 ---
 
