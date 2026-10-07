@@ -83,10 +83,10 @@ similarities, recurring themes, and patterns.
 ## ✦ App Preview
 
 <p align="center">
-  <img src="Screenshots/home.jpeg" width="220"/>
-  <img src="Screenshots/assessment.jpeg" width="220"/>
-  <img src="Screenshots/recommendations.jpeg" width="220"/>
-  <img src="Screenshots/idea-bank.jpeg" width="220"/>
+  <img src="Screenshots/home.jpeg" width="180" hspace="12"/>
+  <img src="Screenshots/assessment.jpeg" width="180" hspace="12"/>
+  <img src="Screenshots/recommendations.jpeg" width="180" hspace="12"/>
+  <img src="Screenshots/idea-bank.jpeg" width="180" hspace="12"/>
 </p>
 
 ---
